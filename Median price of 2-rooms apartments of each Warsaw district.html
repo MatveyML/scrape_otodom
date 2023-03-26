@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3478bcab979e664aee22f347502bc17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c3478bcab979e664aee22f347502bc17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c3478bcab979e664aee22f347502bc17 = L.map(
+                "map_c3478bcab979e664aee22f347502bc17",
+                {
+                    center: [52.2297, 21.0122],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_71394c6d4b81276a2c00032d81080971 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+            var marker_d575c745b762e6754447b675a9a79d63 = L.marker(
+                [52.2592, 21.1375],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_02e3c4865c86c1fc55c2f9381d075fa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_242a95a2e34eab880a416e51b02e11b4 = $(`<div id="html_242a95a2e34eab880a416e51b02e11b4" style="width: 100.0%; height: 100.0%;">Rembertów:2950.0 PLN</div>`)[0];
+                popup_02e3c4865c86c1fc55c2f9381d075fa7.setContent(html_242a95a2e34eab880a416e51b02e11b4);
+            
+        
+
+        marker_d575c745b762e6754447b675a9a79d63.bindPopup(popup_02e3c4865c86c1fc55c2f9381d075fa7)
+        ;
+
+        
+    
+    
+            var marker_04c297fcca941e2129cce9124badd3b9 = L.marker(
+                [52.3118, 20.9474],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_a83a521cf2cfb0d0a0cc7431541047af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a2cf5df6d1d04f225d96f2ff99be4d = $(`<div id="html_a5a2cf5df6d1d04f225d96f2ff99be4d" style="width: 100.0%; height: 100.0%;">Białołęka:3275.0 PLN</div>`)[0];
+                popup_a83a521cf2cfb0d0a0cc7431541047af.setContent(html_a5a2cf5df6d1d04f225d96f2ff99be4d);
+            
+        
+
+        marker_04c297fcca941e2129cce9124badd3b9.bindPopup(popup_a83a521cf2cfb0d0a0cc7431541047af)
+        ;
+
+        
+    
+    
+            var marker_067f8dbc133fdd6661a7886b8ce260fc = L.marker(
+                [52.2761, 21.0588],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_f77f878592b1f813db607e9195f19671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46b6545ea8310726ec27470e01144e49 = $(`<div id="html_46b6545ea8310726ec27470e01144e49" style="width: 100.0%; height: 100.0%;">Targówek:3300.0 PLN</div>`)[0];
+                popup_f77f878592b1f813db607e9195f19671.setContent(html_46b6545ea8310726ec27470e01144e49);
+            
+        
+
+        marker_067f8dbc133fdd6661a7886b8ce260fc.bindPopup(popup_f77f878592b1f813db607e9195f19671)
+        ;
+
+        
+    
+    
+            var marker_22f8426fd20e3f64243cbb1f863367aa = L.marker(
+                [52.1919, 20.8823],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_753e87e65e1328980fe427261d05914b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6529b326a443c805929cf51a417f1e04 = $(`<div id="html_6529b326a443c805929cf51a417f1e04" style="width: 100.0%; height: 100.0%;">Ursus:3300.0 PLN</div>`)[0];
+                popup_753e87e65e1328980fe427261d05914b.setContent(html_6529b326a443c805929cf51a417f1e04);
+            
+        
+
+        marker_22f8426fd20e3f64243cbb1f863367aa.bindPopup(popup_753e87e65e1328980fe427261d05914b)
+        ;
+
+        
+    
+    
+            var marker_88edbbb445ac810427c37385a42c92a3 = L.marker(
+                [52.195, 21.1371],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_041c358820ca1b0b7e38f37dcacfe047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34ee37d601875ddad8296aaacdc23dab = $(`<div id="html_34ee37d601875ddad8296aaacdc23dab" style="width: 100.0%; height: 100.0%;">Wawer:3350.0 PLN</div>`)[0];
+                popup_041c358820ca1b0b7e38f37dcacfe047.setContent(html_34ee37d601875ddad8296aaacdc23dab);
+            
+        
+
+        marker_88edbbb445ac810427c37385a42c92a3.bindPopup(popup_041c358820ca1b0b7e38f37dcacfe047)
+        ;
+
+        
+    
+    
+            var marker_eae79a8799001bbc79292f97cedb5fc2 = L.marker(
+                [52.2908, 20.9474],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_e755c214b3fe074c3ded6ad60c0e9574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_032e7879bfba5bc2be788dc00bd31851 = $(`<div id="html_032e7879bfba5bc2be788dc00bd31851" style="width: 100.0%; height: 100.0%;">Bielany:3500.0 PLN</div>`)[0];
+                popup_e755c214b3fe074c3ded6ad60c0e9574.setContent(html_032e7879bfba5bc2be788dc00bd31851);
+            
+        
+
+        marker_eae79a8799001bbc79292f97cedb5fc2.bindPopup(popup_e755c214b3fe074c3ded6ad60c0e9574)
+        ;
+
+        
+    
+    
+            var marker_12e4e4e34be06a63c602dec30ca23cd8 = L.marker(
+                [52.2369, 21.0493],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_041a5e6eba79d1b2986707dd478e5d04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8beb8367de408f80aaeca35bf313bf6e = $(`<div id="html_8beb8367de408f80aaeca35bf313bf6e" style="width: 100.0%; height: 100.0%;">Praga-Południe:3500.0 PLN</div>`)[0];
+                popup_041a5e6eba79d1b2986707dd478e5d04.setContent(html_8beb8367de408f80aaeca35bf313bf6e);
+            
+        
+
+        marker_12e4e4e34be06a63c602dec30ca23cd8.bindPopup(popup_041a5e6eba79d1b2986707dd478e5d04)
+        ;
+
+        
+    
+    
+            var marker_c71c536408479991cc70af5a75f80f13 = L.marker(
+                [52.2389, 20.9131],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_943a29cd14773330a1ea6417c7d0e0fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbf2e23e3e22ca587683cb87b76a678f = $(`<div id="html_cbf2e23e3e22ca587683cb87b76a678f" style="width: 100.0%; height: 100.0%;">Bemowo:3600.0 PLN</div>`)[0];
+                popup_943a29cd14773330a1ea6417c7d0e0fb.setContent(html_cbf2e23e3e22ca587683cb87b76a678f);
+            
+        
+
+        marker_c71c536408479991cc70af5a75f80f13.bindPopup(popup_943a29cd14773330a1ea6417c7d0e0fb)
+        ;
+
+        
+    
+    
+            var marker_c49dd5f0c4ccdb6a74a737ab30499a48 = L.marker(
+                [52.2122, 20.9725],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_a5e76191a0dfd15eee4c977ceeebb7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eefe4a04d77ae769ed2fdc28ff9ec07a = $(`<div id="html_eefe4a04d77ae769ed2fdc28ff9ec07a" style="width: 100.0%; height: 100.0%;">Ochota:3665.0 PLN</div>`)[0];
+                popup_a5e76191a0dfd15eee4c977ceeebb7b7.setContent(html_eefe4a04d77ae769ed2fdc28ff9ec07a);
+            
+        
+
+        marker_c49dd5f0c4ccdb6a74a737ab30499a48.bindPopup(popup_a5e76191a0dfd15eee4c977ceeebb7b7)
+        ;
+
+        
+    
+    
+            var marker_28d1bbcedf78258cdcb0e3d6b46111a5 = L.marker(
+                [52.1418, 21.0302],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_e99ff721be65f2e2fe81b2046ab28ebb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9878061d305408689f8c5beede87887a = $(`<div id="html_9878061d305408689f8c5beede87887a" style="width: 100.0%; height: 100.0%;">Ursynów:3800.0 PLN</div>`)[0];
+                popup_e99ff721be65f2e2fe81b2046ab28ebb.setContent(html_9878061d305408689f8c5beede87887a);
+            
+        
+
+        marker_28d1bbcedf78258cdcb0e3d6b46111a5.bindPopup(popup_e99ff721be65f2e2fe81b2046ab28ebb)
+        ;
+
+        
+    
+    
+            var marker_3bd489a522391337c28846d21dd97ea5 = L.marker(
+                [52.1864, 20.9472],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_1b057d31a46cf6145375d6a112f851ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa1dd132e0f6f1c3c1f0dfcc75817653 = $(`<div id="html_aa1dd132e0f6f1c3c1f0dfcc75817653" style="width: 100.0%; height: 100.0%;">Włochy:3880.0 PLN</div>`)[0];
+                popup_1b057d31a46cf6145375d6a112f851ed.setContent(html_aa1dd132e0f6f1c3c1f0dfcc75817653);
+            
+        
+
+        marker_3bd489a522391337c28846d21dd97ea5.bindPopup(popup_1b057d31a46cf6145375d6a112f851ed)
+        ;
+
+        
+    
+    
+            var marker_a4dcffd4a32a567e0e16416bd19e732b = L.marker(
+                [52.2643, 21.0285],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_7de7816c3283df5d6532d11aacff8955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5d5cf1b96bc2fd4d15f51da4d4698d9 = $(`<div id="html_d5d5cf1b96bc2fd4d15f51da4d4698d9" style="width: 100.0%; height: 100.0%;">Praga-Północ:3980.0 PLN</div>`)[0];
+                popup_7de7816c3283df5d6532d11aacff8955.setContent(html_d5d5cf1b96bc2fd4d15f51da4d4698d9);
+            
+        
+
+        marker_a4dcffd4a32a567e0e16416bd19e732b.bindPopup(popup_7de7816c3283df5d6532d11aacff8955)
+        ;
+
+        
+    
+    
+            var marker_87a3e72af9c45b9ca701d7be45a36b5b = L.marker(
+                [52.1939, 21.0459],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_61bc574cf6aee2f9d7d244e9c67f44fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e2e3df5a5bbd35c3cda7f89e1733c8d = $(`<div id="html_3e2e3df5a5bbd35c3cda7f89e1733c8d" style="width: 100.0%; height: 100.0%;">Mokotów:4240.0 PLN</div>`)[0];
+                popup_61bc574cf6aee2f9d7d244e9c67f44fc.setContent(html_3e2e3df5a5bbd35c3cda7f89e1733c8d);
+            
+        
+
+        marker_87a3e72af9c45b9ca701d7be45a36b5b.bindPopup(popup_61bc574cf6aee2f9d7d244e9c67f44fc)
+        ;
+
+        
+    
+    
+            var marker_d16ab57c88fabaec71e57b23f68e4552 = L.marker(
+                [52.165, 21.09],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_87c98722a1fce52412cb3d59d0a8c637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_441768efeec2a4f3ca2007db62cb09dc = $(`<div id="html_441768efeec2a4f3ca2007db62cb09dc" style="width: 100.0%; height: 100.0%;">Wilanów:4300.0 PLN</div>`)[0];
+                popup_87c98722a1fce52412cb3d59d0a8c637.setContent(html_441768efeec2a4f3ca2007db62cb09dc);
+            
+        
+
+        marker_d16ab57c88fabaec71e57b23f68e4552.bindPopup(popup_87c98722a1fce52412cb3d59d0a8c637)
+        ;
+
+        
+    
+    
+            var marker_e88bf46f00f3f4f4879b141afb16699f = L.marker(
+                [52.2367, 20.9544],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_6b51b14a727eb3a3d2f7182bcbb48151 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ed3084d16bd92c7fd88e309624c38b = $(`<div id="html_b1ed3084d16bd92c7fd88e309624c38b" style="width: 100.0%; height: 100.0%;">Wola:4400.0 PLN</div>`)[0];
+                popup_6b51b14a727eb3a3d2f7182bcbb48151.setContent(html_b1ed3084d16bd92c7fd88e309624c38b);
+            
+        
+
+        marker_e88bf46f00f3f4f4879b141afb16699f.bindPopup(popup_6b51b14a727eb3a3d2f7182bcbb48151)
+        ;
+
+        
+    
+    
+            var marker_7ed517afdc9f0ff45876d3dc1d571052 = L.marker(
+                [52.2675, 20.9797],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_f47d840e9c0b7aa45d7f96e99f0a16d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37724125b7c697f26cc78e2562349b36 = $(`<div id="html_37724125b7c697f26cc78e2562349b36" style="width: 100.0%; height: 100.0%;">Żoliborz:4400.0 PLN</div>`)[0];
+                popup_f47d840e9c0b7aa45d7f96e99f0a16d6.setContent(html_37724125b7c697f26cc78e2562349b36);
+            
+        
+
+        marker_7ed517afdc9f0ff45876d3dc1d571052.bindPopup(popup_f47d840e9c0b7aa45d7f96e99f0a16d6)
+        ;
+
+        
+    
+    
+            var marker_3c7d3f5c9fb52a59f3ba1586780441b2 = L.marker(
+                [52.2297, 21.0118],
+                {}
+            ).addTo(map_c3478bcab979e664aee22f347502bc17);
+        
+    
+        var popup_48bcd7787929f8f3d263902b60e4b58f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef9657586c58b83b13cd9dc1706ec465 = $(`<div id="html_ef9657586c58b83b13cd9dc1706ec465" style="width: 100.0%; height: 100.0%;">Śródmieście:5000.5 PLN</div>`)[0];
+                popup_48bcd7787929f8f3d263902b60e4b58f.setContent(html_ef9657586c58b83b13cd9dc1706ec465);
+            
+        
+
+        marker_3c7d3f5c9fb52a59f3ba1586780441b2.bindPopup(popup_48bcd7787929f8f3d263902b60e4b58f)
+        ;
+
+        
+    
+</script>
+</html>
